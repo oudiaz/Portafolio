@@ -1,3 +1,7 @@
+/*Font Families
+font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
 .bg-gd {
   background-color: #660066;
 }
@@ -11,24 +15,65 @@
   color: #ffffff;
   text-align: center;
 }
-
-hr{
-max-width: 25%;
+.f-Oswald {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 3.75rem;
 }
-
-.t-center {
-  margin-left: 9.75rem;
-  margin-right: 9.75rem;
+.f-ul {
+  font-family: 'helvetica';
+  font-size: 1.125rem;
 }
-/*.t-justify {
-  text-align: justify;
-}*/
+.f-h2 {
+  font-family: 'Oswald';
+  font-size: 700;
+  font-weight: 4.8125rem;
 
-p{
-  text-align: justify;
 }
-
 .wia {
   margin-top: 450px;
   margin-bottom: 45px;
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 6.6875rem;
+}
+.t-center {
+  margin-left: 9.75rem;
+  margin-right: 9.75rem;
+  text-align: center;
+}
+.h3title{
+  text-align: center;
+  font-family: 'Oswald';
+  font-weight: 600;
+  font-size: 2.3125rem;
+}
+.h3date{
+  text-align: center;
+  font-family: 'Oswald';
+  font-weight: 200;
+  font-size: 2.125rem;
+}
+.hfooter{
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 2.125rem;
+}
+
+hr{
+max-width: 17%;
+}
+
+h1 p{
+  text-align: justify;
+}
+div p {
+  text-align: justify;
+}
+#Contacto{
+
+}
+
+footer a{
+  color: white;
 }
