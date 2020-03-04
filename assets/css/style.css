@@ -62,7 +62,6 @@ font-family: 'Open Sans', sans-serif;*/
 
 hr{
 max-width: 17%;
-}
 
 h1 p{
   text-align: justify;
@@ -70,10 +69,7 @@ h1 p{
 div p {
   text-align: justify;
 }
-#Contacto{
-
-}
-
-footer a{
-  color: white;
-}
+.foot-h2 {
+  font-family: 'Oswald';
+  font-size: 700;
+  font-weight: 4.8125rem;
