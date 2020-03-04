@@ -1,0 +1,34 @@
+.bg-gd {
+  background-color: #660066;
+}
+
+.bg-personal {
+  height: 46.0625rem;
+  background-image: url('../img/bg_hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+hr{
+max-width: 25%;
+}
+
+.t-center {
+  margin-left: 9.75rem;
+  margin-right: 9.75rem;
+}
+/*.t-justify {
+  text-align: justify;
+}*/
+
+p{
+  text-align: justify;
+}
+
+.wia {
+  margin-top: 450px;
+  margin-bottom: 45px;
+}
