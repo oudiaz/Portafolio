@@ -1,6 +1,8 @@
-/*Font Families
-font-family: 'Oswald', sans-serif;
-font-family: 'Open Sans', sans-serif;*/
+body * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 
 .bg-gd {
   background-color: #660066;
@@ -26,13 +28,13 @@ font-family: 'Open Sans', sans-serif;*/
 }
 .f-h2 {
   font-family: 'Oswald';
-  font-size: 700;
-  font-weight: 4.8125rem;
+  font-size: 4.8125rem ;
+  font-weight: 700;
 
 }
 .wia {
-  margin-top: 450px;
-  margin-bottom: 45px;
+  margin-top: 28.125rem;
+  margin-bottom: 2.8125rem;
   text-align: center;
   font-family: 'Oswald';
   font-size: 6.6875rem;
@@ -62,6 +64,7 @@ font-family: 'Open Sans', sans-serif;*/
 
 hr{
 max-width: 17%;
+}
 
 h1 p{
   text-align: justify;
@@ -73,3 +76,16 @@ div p {
   font-family: 'Oswald';
   font-size: 700;
   font-weight: 4.8125rem;
+}
+
+  @media (max-width: 576px){
+    header{
+    	background-repeat: no-repeat;
+    	background-position: center;
+    }
+
+  .f-h2{
+    font-size: 40px;
+    text-align: center;
+  }
+}
