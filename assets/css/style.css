@@ -1,8 +1,4 @@
-body * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
+
 
 .bg-gd {
   background-color: #660066;
@@ -62,10 +58,6 @@ body * {
   font-size: 2.125rem;
 }
 
-hr{
-max-width: 17%;
-}
-
 h1 p{
   text-align: justify;
 }
@@ -88,4 +80,9 @@ div p {
     font-size: 40px;
     text-align: center;
   }
+}
+
+.lineaHr{
+  width: 25px;
+  min-width: 17%;
 }
